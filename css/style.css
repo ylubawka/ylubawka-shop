@@ -272,6 +272,12 @@ section{ position:relative; padding:clamp(72px, 10vw, 112px) 5%; scroll-margin-t
   color:var(--dim); font-weight:700; font-size:0.9rem; padding:0 24px;
   background:repeating-linear-gradient(45deg, var(--bg-2) 0 10px, #221e2a 10px 20px);
 }
+.port-thumb.mod{
+  flex-direction:column; text-align:center;
+  background:radial-gradient(ellipse 80% 80% at 50% 0%, rgba(224,122,107,0.22), transparent 70%), var(--bg-2);
+}
+.port-thumb.mod span{ font-family:var(--font-brand); font-weight:700; font-size:1.5rem; color:var(--gold); display:flex; flex-direction:column; gap:8px; }
+.port-thumb.mod small{ font-family:var(--font); font-weight:700; font-size:0.85rem; color:var(--dim); }
 .links-row{ display:flex; gap:14px; justify-content:center; flex-wrap:wrap; margin-top:40px; }
 .links-row a{
   font-size:0.95rem; font-weight:800; color:var(--text);
