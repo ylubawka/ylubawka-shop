@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Страница не найдена — Улыбашка</title>
+<link rel="icon" type="image/png" href="icons/mascot.png">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .notfound{
+    min-height:80vh; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    text-align:center; padding:140px 6% 60px;
+    background:
+      radial-gradient(ellipse at 50% 0%, rgba(224,122,107,0.14), transparent 60%),
+      radial-gradient(ellipse at 20% 90%, rgba(240,198,116,0.10), transparent 55%),
+      var(--bg);
+  }
+  .notfound img{ width:90px; height:90px; border-radius:50%; border:3px solid var(--gold); margin-bottom:26px; object-fit:cover; }
+  .notfound .code{ font-family:var(--font-brand); font-weight:700; font-size:clamp(3.5rem,11vw,7rem); color:var(--gold); line-height:1; }
+  .notfound h1{ font-size:1.5rem; color:#fff; margin:14px 0 12px; }
+  .notfound p{ color:var(--dim); max-width:420px; margin-bottom:30px; }
+</style>
+</head>
+<body>
+
+<header class="scrolled">
+  <a class="logo" href="index.html"><img src="icons/mascot.png" alt="" width="38" height="38"> <span>Улыбашка</span></a>
+  <a class="nav-cta" href="index.html">На главную</a>
+</header>
+
+<div class="notfound">
+  <img src="icons/mascot.png" alt="Улыбашка">
+  <div class="code">404</div>
+  <h1>Такой страницы нет</h1>
+  <p>Ссылка устарела или страница переехала. Вернись на главную — там всё на месте.</p>
+  <a class="btn btn-primary" href="index.html">На главную</a>
+</div>
+
+<footer>
+  <div class="logo-text">Улыбашка</div>
+  <p>Плагины, моды, боты и сайты на заказ.</p>
+  <p>Telegram: <a href="https://t.me/ylubawka" target="_blank">@ylubawka</a> · Канал: <a href="https://t.me/ylubawkaa" target="_blank">@ylubawkaa</a></p>
+  <p>GitHub: <a href="https://github.com/ylubawka" target="_blank">ylubawka</a> · Modrinth: <a href="https://modrinth.com/user/ylubawka" target="_blank">ylubawka</a></p>
+</footer>
+
+</body>
+</html>
