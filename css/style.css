@@ -238,6 +238,14 @@ section{ position:relative; padding:clamp(72px, 10vw, 112px) 5%; scroll-margin-t
 .step h3{ font-size:1.2rem; color:#fff; margin-bottom:8px; }
 .step p{ color:var(--dim); font-size:0.97rem; line-height:1.7; }
 
+.terms{ display:grid; grid-template-columns:repeat(2, 1fr); gap:22px; margin-top:22px; }
+.term{
+  background:var(--bg); border:1px solid var(--gold-deep); border-radius:var(--radius);
+  padding:26px 28px;
+}
+.term h3{ font-size:1.15rem; color:var(--gold); margin-bottom:8px; }
+.term p{ color:var(--dim); font-size:0.97rem; line-height:1.7; }
+
 /* ---------------- портфолио ---------------- */
 .portfolio-grid{ display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:20px; }
 .port-card{
@@ -376,7 +384,7 @@ footer p a:hover{ text-decoration:underline; text-underline-offset:3px; }
   .nav-cta{ display:none; }
   header{ background:rgba(22,19,28,0.86); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); border-bottom-color:var(--line); }
 
-  .roles, .steps{ grid-template-columns:1fr; }
+  .roles, .steps, .terms{ grid-template-columns:1fr; }
   .order-wrap{ grid-template-columns:1fr; }
 }
 @media (max-width:560px){
